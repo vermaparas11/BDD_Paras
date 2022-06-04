@@ -1,0 +1,76 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-03T22:04:15.062Z",
+        "line": 5,
+        "name": "Validation for Register page",
+        "description": "",
+        "id": "demo1-features;validation-for-register-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5108308600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "com.bdd.steps.Demo1Steps.user_navigates_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on register",
+            "match": {
+              "location": "com.bdd.steps.Demo1Steps.user_clicks_on_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 600900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the title is displayed correctly",
+            "match": {
+              "location": "com.bdd.steps.Demo1Steps.verify_the_title_is_displayed_correctly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo1features"
+          },
+          {
+            "name": "@Login1linkvalidation"
+          }
+        ]
+      }
+    ],
+    "name": "Demo1 features",
+    "description": "",
+    "id": "demo1-features",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Demo1Feature.feature",
+    "tags": [
+      {
+        "name": "@demo1features",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
